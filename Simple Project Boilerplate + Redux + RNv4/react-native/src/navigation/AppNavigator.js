@@ -23,6 +23,9 @@ const AppNavigator = createStackNavigator({
   Heart: {
     screen: HeartScreen,
     navigationOptions: {
+      headerTintColor: Colors.primary,
+      headerTruncatedBackTitle: '',
+      headerBackTitle: '',
       headerStyle: {
         backgroundColor: Colors.header,
         shadowColor: Colors.header,

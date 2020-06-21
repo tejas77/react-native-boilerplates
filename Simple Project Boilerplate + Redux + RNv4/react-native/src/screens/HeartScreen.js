@@ -5,7 +5,7 @@ import {useDispatch} from 'react-redux';
 import Colors from '../constants/Colors';
 import * as homeActions from '../store/actions/homeActions';
 
-const HeartScreen = () => {
+const HeartScreen = (props) => {
   const dispatch = useDispatch();
   return (
     <View style={styles.heartContainer}>

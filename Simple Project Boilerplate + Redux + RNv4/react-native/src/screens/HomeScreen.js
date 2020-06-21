@@ -6,14 +6,14 @@ import HeaderButton from '../components/HeaderButton';
 import Colors from '../constants/Colors';
 import logo from '../assets/logo.png';
 
-const HomeScreen = props => {
-  const home = useSelector(state => state.home);
+const HomeScreen = (props) => {
+  const home = useSelector((state) => state.home);
   return (
     <View style={styles.homeContainer}>
       <Text style={styles.textStyle}>{home.projectType}</Text>
       <Image source={logo} resizeMode="contain" style={styles.imageStyle} />
       <Text style={styles.textStyle}>
-        React-Native Hearts: {home.loveReactNative}
+        {home.projectType} Hearts: {home.loveReactNative}
       </Text>
     </View>
   );
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
   imageStyle: {height: 150},
 });
 
-HomeScreen.navigationOptions = navData => {
+HomeScreen.navigationOptions = (navData) => {
   return {
     headerRight: () => (
       <HeaderButtons HeaderButtonComponent={HeaderButton}>
