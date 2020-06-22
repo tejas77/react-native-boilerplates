@@ -9,7 +9,7 @@ This is the boilerplate for Beginners who have just completed any course on **re
 
 The boilerplates are divided according to type of your setup.
 
-- expo
+- [expo](expo)
 - [react-native-cli](react-native)
 - react-native-cli with typescript template
 
