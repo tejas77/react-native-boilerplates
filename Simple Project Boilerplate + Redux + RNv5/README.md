@@ -11,7 +11,7 @@ The boilerplates are divided according to type of your setup.
 
 - [expo](expo)
 - [react-native-cli](react-native)
-- react-native-cli with typescript template
+- [react-native-cli with typescript template](react-native-typescript)
 
 ## Features
 
