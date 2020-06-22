@@ -9,6 +9,7 @@ It will also contain _3rd party library integrated project examples_ to help new
 The boilerplates are added according to level and basic initial setup.
 
 - [Simple Project with Redux and React Navigation v4](Simple%20Project%20Boilerplate%20%2B%20Redux%20%2B%20RNv4)
+- [Simple Project with Redux and React Navigation v5](Simple%20Project%20Boilerplate%20%2B%20Redux%20%2B%20RNv5)
 
 ### Note:
 
